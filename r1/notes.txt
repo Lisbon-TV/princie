@@ -1,0 +1,35 @@
+React UI tools:
+https://mui.com/
+
+***
+https://www.npmjs.com/package/@fontsource/roboto
+npm install @fontsource/roboto
+
+
+For core: npm -f install @material-ui/core
+
+For icons: npm -f install @material-ui/icons
+
+
+***npm start
+npm install @mui/material
+
+***
+https://www.npmjs.com/package/@mui/icons-material
+@mui/icons-material
+// with npm
+npm install @mui/icons-material
+or
+// with yarn
+yarn add @mui/icons-material
+
+
+***
+@material-ui/styles
+https://v4.mui.com/styles/basics/
+
+// with npm
+npm install @material-ui/styles
+
+// with yarn
+yarn add @material-ui/styles
