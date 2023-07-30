@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 
-import { Container } from "@material-ui/core";
+import { Container, Avatar, Typography } from "@material-ui/core";
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 
@@ -26,7 +26,22 @@ function App() {
         <Side style={{ gridColumn: 1 }} />
       </div>
 
-      <div style={{ gridColumn: 2, gridRow: 1 }}>Search bar</div>
+      <div
+        style={{
+          gridColumn: 2,
+          gridRow: 1,
+          display: "flex",
+          justifyContent: "Center",
+          alignItems: "center",
+          height: "40px",
+          width: "300px",
+          margin: "15px",
+          borderRadius: "25px",
+          backgroundColor: "#f1f1f1",
+        }}
+      >
+        Search anything...
+      </div>
 
       <h1
         style={{
@@ -53,12 +68,36 @@ function App() {
         results
       </p>
 
-      <div style={{ gridColumn: 3, gridRow: 1 }}>Maxie Mon W</div>
+      <div
+        style={{
+          gridColumn: 3,
+          gridRow: 1,
+          display: "flex",
+          alignItems: "center",
+          backgroundColor: "#f1f1f1",
+          height: "40px",
+          width: "180px",
+          marginTop: "15px",
+          borderRadius: "25px",
+        }}
+      >
+        <Avatar alt="Maxie Mon Wachid" src="./img/profile-icon.png" />
+        <div style={{ marginLeft: "10px" }}>
+          <Typography style={{ fontSize: "11px" }} variant="body1">
+            Maxie Mon Wachid
+          </Typography>
+          <Typography
+            style={{ fontSize: "9px", color: "#aaaaaa" }}
+            variant="body2"
+          >
+            @Maxie Mon Wachid
+          </Typography>
+        </div>
+      </div>
       <div style={{ gridColumn: 3, gridRow: 2 }}>This Month</div>
-      <div style={{ gridColumn: 3, gridRow: 3 }}>My Info</div>
-      <div tyle={{ gridColumn: 2, gridRow: 3 }}>My Revenue</div>
-      <div style={{ gridColumn: 2, gridRow: 4 }}>1st Chart</div>
-      <div style={{ gridColumn: 3, gridRow: 4 }}>2nd Chart</div>
+      <div style={{ gridColumn: 2, gridRow: 3 }}>Monthly Recurring Revenue</div>
+      <div style={{ gridColumn: 2, gridRow: 4 }}>Chart: Montly Revenue</div>
+      <div style={{ gridColumn: 3, gridRow: 4 }}>Chart: Selling Product</div>
     </Container>
   );
 }

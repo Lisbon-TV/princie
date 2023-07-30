@@ -33,7 +33,7 @@ const Side = (_) => {
     <div className="side">
       <div className="logo">
         <img src={logo} alt="Princie logo" />
-        <span className="log-position">Princie</span>
+        <span className="logo-position">Princie</span>
       </div>
 
       <ul>
